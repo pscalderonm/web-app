@@ -47,7 +47,7 @@ app.use(
    authorizationParams:{
     response_type: "code id_token",
     audience: "https://expenses-api",
-    scopes: "openid profile email read:reports"
+    scope: "openid profile email read:reports"
    }
  })
 );
